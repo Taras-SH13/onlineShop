@@ -4,12 +4,12 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class Order {
-    List<PositionTtem> item;
+    List <PositionItem> items;
     BigDecimal total;
     User user;
     OrderStatus orderStatus;
 
-    class PositionTtem{
+    class PositionItem{
         Order order;
         int amount;
         BigDecimal subtotal;

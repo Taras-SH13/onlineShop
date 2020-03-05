@@ -1,8 +1,16 @@
 package com.skillsup;
 
+import com.skillsup.view.LoginMenu;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+
+
+      new LoginMenu().show();
+
+
+
     }
 }
