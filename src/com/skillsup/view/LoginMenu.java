@@ -6,8 +6,6 @@ public class LoginMenu implements Menu {
     String[] menuItems = new String[]{
             "1. Login",
             "2. Register",
-
-
             "9. Back",
             "0. Exit"
     };
@@ -32,15 +30,14 @@ public class LoginMenu implements Menu {
         switch (scanner.nextInt()) {
             case 1:
                 System.out.println("your login:");
-                String login=scanner.nextLine();
+                String login = scanner.nextLine();
 
                 System.out.println("your password:");
-                String password=scanner.nextLine();
-
+                String password = scanner.nextLine();
 
 
                 break;
-            case 2 :
+            case 2:
                 System.out.println("Registered!");
                 break;
         }

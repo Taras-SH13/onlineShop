@@ -8,7 +8,7 @@ public class Main {
 
 
 
-      new LoginMenu().show();
+      new LoginMenu().show();// вызов метода show из класса LoginMenu без присваивания объекта ссылочной переменной.
 
 
 

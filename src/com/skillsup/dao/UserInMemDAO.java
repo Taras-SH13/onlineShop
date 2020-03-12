@@ -15,21 +15,25 @@ public class UserInMemDAO implements UserDAO {
 
     @Override
     public void save(User user) {
+        userMap.put(user.getUsername(),user);
 
     }
 
     @Override
     public void update(User user) {
+        userMap.put(user.getUsername(),user);
 
     }
 
     @Override
     public void delete(User user) {
+        userMap.remove(user.getUsername());
 
     }
 
     @Override
     public void get(String username) {
+        userMap.get(username);
 
     }
 }

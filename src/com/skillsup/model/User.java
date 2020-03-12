@@ -15,7 +15,6 @@ public class User {
         this.password = password;
         this.userRole = userRole;
     }
-
     public User(String username, String password, UserRole userRole, Gender gender, int age) {
         this (username, password, userRole);
         this.gender = gender;
